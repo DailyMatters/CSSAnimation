@@ -67,5 +67,7 @@ To complete the animation let's add the following 2 lines to our div:
     animation-duration: 4s;
 ```
 	
-We are explicitly telling that the animation ( @keyframes )to use is the one called 'example', and the animation will take 4 seconds.
+We are explicitly telling that the animation ( @keyframes ) to use is the one called 'example', and the animation will take 4 seconds.
+
+(Ongoing)
 
