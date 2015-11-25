@@ -63,8 +63,13 @@ Given this information, let's complete our little red square animation. When all
 To complete the animation let's add the following 2 lines to our div:
 
 ```css
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
     animation-name: example;
     animation-duration: 4s;
+    }
 ```
 	
 We are explicitly telling that the animation ( @keyframes ) to use is the one called 'example', and the animation will take 4 seconds.
