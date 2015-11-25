@@ -72,7 +72,7 @@ div {
     }
 ```
 	
-We are explicitly telling that the animation ( @keyframes ) to use is the one called 'example', and the animation will take 4 seconds.
+We are explicitly telling that the animation ( @keyframes ) to use is the one called 'example', and that the animation will take 4 seconds.
 
 (Ongoing)
 
