@@ -74,5 +74,18 @@ div {
 	
 We are explicitly telling that the animation ( @keyframes ) to use is the one called 'example', and that the animation will take 4 seconds.
 
+Having an animation with only 2 states it's just like having a transition. So let's add another state so you can see the power of the animation. 
+Let's say that in between going from red to yellow we want our little square to be green. To do that we'll add a 50% state, just like this:
+
+```css
+@keyframes example {
+    0% {background-color: red;}
+    50% {background-color: green;}
+    100% {background-color: yellow;}
+}
+```
+
+As you can see, now we're transitioning from red to green to yellow. The more states we add the richer our animation.
+
 (Ongoing)
 
