@@ -87,5 +87,49 @@ Let's say that in between going from red to yellow we want our little square to 
 
 As you can see, now we're transitioning from red to green to yellow. The more states we add the richer our animation.
 
+### On vendor prefixes
+Vendor prefixes were originally created to allow browser makers to start supporting experimental CSS declarations. The vendor prefix kind of says “this is the Mozzilla interpretation of an ongoing proposal.”
+It is a good policy to use vendor prefixes in your animations, as it allows the different browsers to render things in their way. So looking at our code, it would look something like this:
+
+```css
+@-webkit-keyframes example{
+    0% {background-color: red;}
+    100% {background-color: yellow;}
+}
+@-moz-keyframes example {
+    0% {background-color: red;}
+    100% {background-color: yellow;}
+}
+@-o-keyframes example {
+    0% {background-color: red;}
+    100% {background-color: yellow;}
+}
+@keyframes example {
+    0% {background-color: red;}
+    100% {background-color: yellow;}
+}
+```
+And the corresponding CSS:
+
+```css
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    -webkit-animation-name: example;
+    animation-duration: 4s;
+    -webkit- animation-duration: 4s;
+    }
+```
+And the same would be used for the -moz and -o prefixes.
+
+And this is all we have to say about animations, from here is just a matter of creating more robust and complex animations, using the tools we presented here. ou canalso find some more examples of animations using CSS in this code repository (we be online soon) so be sure to check them.
+
+Hope you enjoyed this little crash course.
+
+Sincerely,
+Cláudio Ribeiro
+
 (Ongoing)
 
