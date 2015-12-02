@@ -131,5 +131,3 @@ Hope you enjoyed this little crash course.
 Sincerely,
 Cláudio Ribeiro
 
-(Ongoing)
-
