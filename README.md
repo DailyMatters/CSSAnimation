@@ -124,7 +124,7 @@ div {
 ```
 And the same would be used for the -moz and -o prefixes.
 
-And this is all we have to say about animations, from here is just a matter of creating more robust and complex animations, using the tools we presented here. ou canalso find some more examples of animations using CSS in this code repository (we be online soon) so be sure to check them.
+And this is all we have to say about animations, from here is just a matter of creating more robust and complex animations, using the tools we presented here. You can also find some more examples of animations using CSS in this code repository (will be online soon) so be sure to check them.
 
 Hope you enjoyed this little crash course.
 
