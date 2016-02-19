@@ -1,10 +1,10 @@
 # A Crash Course on CSS3 Animations
 
-Animation has been one of the pillars of interactivity on the internet. Be it films, animated gifs, flash animation, you name it. When used correctly, animation is one of the most powerful interactivity tools, it brings life to the screen and adds a whole new layer of of user experience.
+Animation has been one of the pillars of interactivity on the internet. Be it movies, animated gifs, flash animation, you name it. When used correctly, animation is one of the most powerful interactivity tools, it brings life to the screen and adds a whole new layer of user experience.
 
 But I'm not here to talk about the history of animation on the internet or the complexity of user experience using animation. I'm here to talk to you about using CSS3 to animate elements on your webpage.
 
-Animations in CSS are like transitions on steroids! Instead of an initial and final state, with animations you are allowed to use different intermediate states that will create more complex and sophisticated animations.
+Animations in CSS are like transitions on steroids! Instead of an initial and final state, with animations you are allowed to use different intermediate states with which you can create more complex and sophisticated animations.
 The fact that is simpler to write than an animation in Javascript makes it perfect for small animations. Summing up, they're very powerful, yet simple to use and fast to create, this is because the animation is handled by the browser, 
 and not by your code.
 
