@@ -8,7 +8,7 @@ Animations in CSS are like transitions on steroids! Instead of an initial and fi
 The fact that is simpler to write than an animation in Javascript makes it perfect for small animations. Summing up, they're very powerful, yet simple to use and fast to create, this is because the animation is handled by the browser, 
 and not by your code.
 
-The main component of an animation is CSS is **@keyframes**. **@keyframes** is the CSS rule where the animation is created. The **@keyframes** component is composed of 3 main properties.
+The main component of an animation in CSS is **@keyframes**. **@keyframes** is the CSS rule where the animation is created. The **@keyframes** component is composed of 3 main properties.
 
 * The name of the animation
 * The stages of the animation from 0% to 100% (or using the to and from keywords which correspond to 0% and 100% respectively)
