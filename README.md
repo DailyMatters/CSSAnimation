@@ -1,13 +1,14 @@
 # A Crash Course on CSS3 Animations
 
-Animation has been one of the pillars of interactivity on the internet. Be it movies, animated gifs, flash animation, you name it. When used correctly, animation is one of the most powerful interactivity tools, it brings life to the screen and adds a whole new layer of user experience.
+Animation has been one of the main pillars of interactivity on the internet. Be it movies, animated gifs, flash animation, you name it. When used correctly, animation is one of the most powerful interactivity tools, it brings life to the screen and it adds a whole new layer of user experience.
 
 But I'm not here to talk about the history of animation on the internet or the complexity of user experience using animation. I'm here to talk to you about using CSS3 to animate elements on your webpage.
 
-Animations in CSS are like transitions on steroids! Instead of an initial and final state, with animations you are allowed to use different intermediate states with which you can create more complex and sophisticated animations.
-The fact that is simpler to write than an animation in Javascript makes it perfect for small animations. Summing up, they're very powerful, yet simple to use and fast to create, this is because the animation is handled by the browser, 
-and not by your code.
+Animations in CSS are like transitions on steroids! Instead of an initial and final state, with css animations you are allowed to use different intermediate states with which you can create more complex and sophisticated animations.
+The fact that is simpler to write than an animation in Javascript makes it perfect for small animations. They are very powerful, yet simple to use and fast to create, this is because the animation is handled by the browser, and not by your code.
 
+
+### Using CSS Animations
 The main component of an animation in CSS is **@keyframes**. **@keyframes** is the CSS rule where the animation is created. The **@keyframes** component is composed of 3 main properties.
 
 * The name of the animation
@@ -124,10 +125,9 @@ div {
 ```
 And the same would be used for the -moz and -o prefixes.
 
-And this is all we have to say about animations, from here is just a matter of creating more robust and complex animations, using the tools we presented here. You can also find some more examples of animations using CSS in this code repository (will be online soon) so be sure to check them.
+### Summing up
+There is a lot more to say about css animations, from here is just a matter of creating more robust and complex animations, using the tools we presented here. You can also find some more examples of animations using CSS in this code repository so be sure to check them.
 
 Hope you enjoyed this little crash course.
 
-Sincerely,
-Cláudio Ribeiro
 
